@@ -1,3 +1,22 @@
+Fork of official nginx cookbook and merged opscode-cookbooks/nginx#66. Do
+_not_ expect upstream updates. _Do_ expect this repository to vanish when
+the PR gets merged upstream.
+
+Remotes:
+
+    [remote "origin"]
+        url = git@github.com:classmarkets/chef-nginx.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
+    [remote "upstream"]
+        url = git://github.com/opscode-cookbooks/nginx.git
+        fetch = +refs/heads/*:refs/remotes/upstream/*
+    [remote "priestjim"]
+        url = git://github.com/priestjim/nginx.git
+        fetch = +refs/heads/*:refs/remotes/priestjim/*
+
+
+* * *
+
 Description
 ===========
 
